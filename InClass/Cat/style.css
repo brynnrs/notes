@@ -1,41 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 :root {
-  --fg-color: hsl(25, 48%, 41%);
-  --bg-color: hsl(186, 28%, 61%);
-  --card-bg-color: hsl(120, 21%, 52%);
-  --text-color: hsl(0, 6%, 94%);
-  font-family: "SUSE", sans-serif;
+  --border-color: hsl(185, 28%, 25%);
+  --mddl-border-color: hsl(260, 25%, 30%);
+  /* --fg-color: hsl(25, 48%, 41%); */
+  --bg-color: hsl(185, 28%, 61%);
+  --card-bg-color: hsl(120, 20%, 41%);
+  --text-color: hsl(185, 2%, 90%);
+  font-family: "Playpen Sans", cursive;
+  background-color: var(--bg-color);
 }
 
-img {
-  border-radius: 0.2em;
-}
 .card {
   display: inline-block;
-  color: var(--fg-color);
-  border-color: hsl(240, 20%, 18%);
-  border-width: 1em;
+  color: var(--border-color);
+  border-color: var(--border-color);
+  border-width: 1.5em;
   border-style: solid;
-  border-radius: 0.5em;
+  border-radius: 2em 2em;
   text-align: center;
   background-color: var(--card-bg-color);
-  transition: 3s;
+  /* transition: 3s; */
   width: 15em;
 }
 
 .card:hover {
   box-shadow: 0.5em 0.5em 2em hsl(180, 25%, 25%);
   scale: 1.05;
-  transition: 2s;
+  /* transition: 2s; */
 }
 
 .card img {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  /* border: 1em solid; */
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
   width: 100%;
   height: 15em;
-
 }
 
 .card > figcaption {
@@ -43,4 +43,16 @@ img {
   color: var(--text-color);
 }
 
+#middleCard {
+  border-color: var(--mddl-border-color);
+}
 
+#cat2 {
+  background-image: url(./cat2.jpg);
+  background-size: cover;
+  background-position: center 85%;
+  background-repeat: no-repeat;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  height: 15em;
+}
