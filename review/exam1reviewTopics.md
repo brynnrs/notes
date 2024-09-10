@@ -1,0 +1,24 @@
+## Topics ##
+- HTML document detup (DOCTYPE, html, head, body)
+- HTML attributes, elements, tags
+- semantic HTML tags (article, nav, header, footer, section, figure, figcaption)
+- relative vs absolute reference links
+- ordered/unordered lists, list items
+- CSS stylesheet linking
+- inline, embedded, external style sheets
+- CSS declaration block, property:value pair
+- mindful use of inheritance
+- awareness of cascade principles
+- contextual CSS selectors, combinators
+- pseudo-class, pseudo-element selectors
+- margin/padding/border/border-radius(top, right, bottom, left)
+- text-align, transform
+- width, height
+- :hover, box-shadow, scale, transition
+- background image, size, position, repeat 
+- root element, CSS variables
+- how to use hsl colors
+- CSS box model
+- inline, block, inline-block
+- absolute units vs relative units (px,em,rem)
+- importing/using fonts
