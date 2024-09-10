@@ -1,4 +1,5 @@
-## Topics ##
+## Topics
+
 - HTML document detup (DOCTYPE, html, head, body)
 - HTML attributes, elements, tags
 - semantic HTML tags (article, nav, header, footer, section, figure, figcaption)
@@ -14,11 +15,24 @@
 - margin/padding/border/border-radius(top, right, bottom, left)
 - text-align, transform
 - width, height
-- :hover, box-shadow, scale, transition
-- background image, size, position, repeat 
+- :hover, box-shadow, transform: scale, transition
+- background image, size, position, repeat
 - root element, CSS variables
 - how to use hsl colors
 - CSS box model
 - inline, block, inline-block
 - absolute units vs relative units (px,em,rem)
 - importing/using fonts
+
+## Class Notes
+
+- `/>` = self closing tag
+- `<link rel="stylesheet" href="./styles.css">`
+- `list-style: none;`
+- `background-image`, `background-repeat`, `background-position`, `background-size`, `height`
+
+## Misc to Remember
+- `alt=""` on `div` for `background-image` instead of `img`
+- card of links at bottom of review webpage
+- Inspector [SHIFT + CTRL + C]
+- `<hr>` for line
