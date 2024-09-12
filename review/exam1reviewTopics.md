@@ -36,3 +36,7 @@
 - card of links at bottom of review webpage
 - Inspector [SHIFT + CTRL + C]
 - `<hr>` for line
+
+## To Include on Note Page
+
+<a href="https://www.somewebsitehere.com/" target="_blank"></a>
