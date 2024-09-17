@@ -1,0 +1,21 @@
+.myTable {
+    border-collapse: collapse;
+}
+
+.myTable td {
+    padding: 1em;
+}
+
+.myTable th {
+    padding: 1em;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: rgb(196, 194, 194);
+}
+
+.myTable tr {
+    border-bottom-color: rgb(200, 200, 200);
+    border-bottom-style: solid;
+    border-bottom-width: .1em;
+}
