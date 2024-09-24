@@ -1,0 +1,63 @@
+/* colors, padding, not flex stuff */
+:root {
+    --background-color-1: #2c1323;
+    --background-color-2: #462d42;
+    --background-color-3: #1e142a;
+    --text-color: #e2dce0;
+    --bold-color: #dea570;
+    --bold-emphasis-color: #E36414;
+    --third-color: #9A031E;
+ 
+    color: var(--text-color);
+}
+ 
+ 
+main {
+    background-color: var(--background-color-1);
+    padding: .5em;
+}
+ 
+nav {
+    background-color: var(--background-color-3);
+}
+ 
+footer, header {
+    background-color: var(--background-color-2);
+}
+ 
+header a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding-right: 1em;
+}
+ 
+header a:hover{
+    color: var(--bold-color);
+}
+ 
+nav ul {
+    padding-right: .5em;
+    padding-left: .5em;
+    list-style-type: none;
+}
+ 
+hr {
+    background-color: var(--text-color);
+    height: .05em;
+    border: none;
+}
+ 
+footer ul {
+ 
+    list-style-type: none;
+    padding: .5em;
+ 
+    display: flex;
+    justify-content: space-around;
+}
+ 
+footer li {
+    display: block;
+    padding-right: 1em;
+    text-align: center;
+}
